@@ -1,7 +1,8 @@
 # Face-Emotion-Detection-System
 This project aims to classify the emotion on a person's face into one of seven categories, using deep convolutional neural networks. The model is trained on the FER-2013 dataset which was published on International Conference on Machine Learning (ICML). This dataset consists of 35887 grayscale, 48x48 sized face images with seven emotions - angry, disgusted, fearful, happy, neutral, sad and surprised.
 
-**#Dataset**
+# **Dataset**
+
 Fro this project we have kaggle dataset fer 2013: https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data.
 
 dataset_shape=(35887,3)
@@ -10,9 +11,9 @@ After reshaping for data:-
 
 train shape (28709, 48, 48, 1) validation shape (3589, 48, 48, 1) validation shape (3589, 48, 48, 1)
 
-**#Experiment With Model**
+# **Experiment With Model**
 
-#1.Using MLP with tensorflow version 2.4.1
+# 1.Using MLP with tensorflow version 2.4.1
 
 Epoch 1/5 898/898 [==============================] - 4s 4ms/step - loss: 47.1633 - accuracy: 0.2087 - val_loss: 2.3757 - val_accuracy: 0.2282
 Epoch 2/5 898/898 [==============================] - 3s 4ms/step - loss: 1.9894 - accuracy: 0.2493 - val_loss: 2.1619 - val_accuracy: 0.1828
@@ -23,7 +24,7 @@ Epoch 4/5 898/898 [==============================] - 3s 4ms/step - loss: 1.8567 
 
 Epoch 5/5 898/898 [==============================] - 3s 4ms/step - loss: 1.8110 - accuracy: 0.2486 - val_loss: 1.8177 - val_accuracy: 0.2449 <tensorflow.python.keras.callbacks.History at 0x7fd02058f390>
 
-#2.Using CNN
+# 2.Using CNN
 
 Epoch 1/15 684/684 [==============================] - 56s 82ms/step - loss: 0.6443 - accuracy: 0.7727 - val_loss: 3.1014 - val_accuracy: 0.4260
 
